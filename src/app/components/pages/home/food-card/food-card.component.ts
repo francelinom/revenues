@@ -31,5 +31,17 @@ export class FoodCardComponent implements OnInit {
       });
   }
 
-  loadMore() {}
+  loadMore() {
+    this.loadingMore = true;
+    this.service
+      .listRandomFood(3)
+      .pipe(
+        finalize(() => {
+          this.loadingMore = false;
+        })
+      )
+      .subscribe((data: any) => {
+        this.foods = this.foods.concat(data.recipes);
+      });
+  }
 }
