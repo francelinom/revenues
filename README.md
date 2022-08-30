@@ -1,27 +1,75 @@
 # Revenues
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+## Indice
 
-## Development server
+- [Revenues](#Revenues)
+  - [Indice](#indice)
+  - [Sobre](#sobre)
+  - [Funcionalidade da Aplicação](#funcionalidade-da-aplicação)
+  - [Tecnologias utilizadas](#tecnologias-utilizadas)
+  - [Como baixar o projeto](#como-baixar-o-projeto)
+  - [Telas](#telas)
+  - [Autor](#autor)
+  
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Sobre
 
-## Code scaffolding
+O Projeto **Revenues** foi desenvolvido para estudo sobre Angular 13 que foi desenvolvido junto ao curso de Onebitcode black consumindo uma API externa (https://spoonacular.com/food-api).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## Funcionalidade da Aplicação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+As funcionalidades são:
+- Listar Receitas;
+- Listar Receitar por id;
+- Pesquisar Receita.
 
-## Running unit tests
+---
+## Tecnologias utilizadas 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+O projeto foi desenvolvido utilizando as seguintes tecnologias
+- Angular 13
+- TypeScript
+- Bootstrap 5
+- CSS
+- HTML
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Como baixar o projeto
 
-## Further help
+```bash
+# Clonar o repositório em sua máquina 
+$ git clone https://github.com/francelinom/revenues.git
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Entrar na pasta do projeto 
+$ cd revenues
+
+# Instalar todas as dependências 
+$ npm i
+
+# Iniciar o projeto 
+ng serve
+# or
+yarn dev
+
+Abrir o projeto na porta: http://localhost:4200
+```
+
+---
+## Telas
+<img src="src/assets/image/01.png">
+
+<img src="src/assets/image/02.png">
+
+<img src="src/assets/image/03.png">
+
+---
+## Autor
+
+Desenvolvido por **Francelino Marcílio da Silva** 
+<h1>
+  <img src="src/assets/image/eumesmo.jpg">
+</h1>
